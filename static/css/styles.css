@@ -1,0 +1,37 @@
+body {
+  background-color:Lavender;
+}
+
+.container {
+  text-align:center;
+  background-color:Thistle;
+}
+
+button {
+  background-color:RebeccaPurple;
+  border:none;
+  color:white;
+  font-weight:bold;
+  padding:10px 28px;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+  border: 1px solid #000;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #000;
+  background-color:Thistle;
+}
+
+ul li:nth-child(even) {
+  background-color:MediumPurple;
+}
+
+p {
+  font-weight: bold;
+  font-size: 40px;
+}

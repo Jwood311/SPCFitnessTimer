@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Fit Timer</title>
+  <link rel="stylesheet"
+        href="{{url_for('static', filename='css/styles.css')}}">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src ="{{ url_for('static', filename='script/script.js') }}"></script>
+
+</head>
+<body onload="javascript:getRemoteTimes()">
+  <div class="container">
+    <div>
+      <p id="display">0:00:00</p>
+      <button id="startTimer" onclick="startTimer()">Start Timer</button>
+      <button id="endTimer" onclick="endTimer()">End Timer</button>
+      <button id="clearTimer" onclick="clearTimer()">X Clear Times</button>
+    </div>
+    <br>
+  </div>
+  <ul>
+  </ul>
+
+</body>
+</html>
